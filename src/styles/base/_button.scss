@@ -1,0 +1,21 @@
+.base-button {
+  background-color: $brand-color;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.singIn {
+  width: 98px;
+}
+
+.singUp {
+  font-size: 12px;
+  border: none;
+  background-color: white;
+  text-decoration: underline;
+  color: $brand-color;
+  cursor: pointer;
+}

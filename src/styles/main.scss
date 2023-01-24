@@ -1,0 +1,32 @@
+@import "./_variables";
+@import "./base/base.scss";
+@import "./pages/pages.scss";
+
+body {
+  font-family: "Nunito";
+}
+
+.app {
+  &-header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  &-footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+  &-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+  }
+}
