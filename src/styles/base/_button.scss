@@ -5,6 +5,18 @@
   border: none;
   color: white;
   cursor: pointer;
+
+  &.addCategories {
+    font-family: "Nunito";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $brand-color;
+    background: none;
+    font-size: 16px;
+    width: 85px;
+    padding: 0;
+  }
 }
 
 .singIn {
@@ -18,4 +30,18 @@
   text-decoration: underline;
   color: $brand-color;
   cursor: pointer;
+}
+
+.btn-logout {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+  width: 70px;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  bottom: 20px;
 }

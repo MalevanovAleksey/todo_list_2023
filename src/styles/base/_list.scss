@@ -1,0 +1,47 @@
+.list {
+  &__content {
+    margin-top: 60px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: $brand-color;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 15px 0;
+
+    &:hover {
+      cursor: pointer;
+      color: $brand-color;
+    }
+
+    & .icon {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+
+    &__indicator {
+      width: 30px;
+      height: 18px;
+      background-color: $brand-color;
+      border-radius: 10px 0 0 10px;
+    }
+  }
+}
+
+.base-list {
+  list-style: none;
+  // margin-left: 20px;
+  padding: 0;
+}

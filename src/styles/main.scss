@@ -1,9 +1,20 @@
 @import "./_variables";
 @import "./base/base.scss";
 @import "./pages/pages.scss";
+@import "./layout/layout.scss";
 
 body {
   font-family: "Nunito";
+}
+
+.App {
+  &.light {
+    background-color: $background-color-light;
+  }
+
+  &.dark {
+    background-color: $background-color-dark;
+  }
 }
 
 .app {
@@ -23,10 +34,10 @@ body {
       margin-right: 10px;
     }
   }
-  &-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 85vh;
-  }
+  // &-section {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   height: 85vh;
+  // }
 }
